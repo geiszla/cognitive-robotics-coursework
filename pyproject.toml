@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "cognitive-robotics-coursework"
+version = "0.1.0"
+description = "Coursework for the Cognitive Robotics module"
+
+license = "MIT"
+authors = ["András Geiszl"]
+
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "~3.7"
+jupyter = "^1.0.0"
+keras = "^2.3.1"
+matplotlib = "^3.2.1"
+nltk = "^3.5"
+sklearn = "^0.0"
+tensorflow = "^2.1.0"
+tensorflow-estimator = "2.1.0"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^3.7.9"
+pylint = "^2.4.4"

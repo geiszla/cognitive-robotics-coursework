@@ -1,0 +1,16 @@
+{
+  "include": ["src"],
+  "exclude": ["**/__pycache__"],
+  "ignore": ["typestubs/**"],
+
+  "typeshedPath": "typeshed",
+  "typingsPath": "src/typestubs",
+  "venvPath": "C:\\tools\\Anaconda3\\envs",
+
+  "pythonVersion": "3.7",
+
+  "executionEnvironments": [{ "root": "src" }],
+
+  "typeCheckingMode": "strict",
+  "reportMissingTypeStubs": false
+}
